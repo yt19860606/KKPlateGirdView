@@ -4,7 +4,7 @@
   
 ![image](https://github.com/KKFinger/KKPlateGirdView/blob/master/截图/1.PNG)
 
-![image](https://github.com/WUYUJIAN/KKPlateGirdView/blob/master/截图/2.PNG)  
+![image](https://github.com/KKFinger/KKPlateGirdView/blob/master/截图/2.PNG)  
 
-![image](https://github.com/WUYUJIAN/KKPlateGirdView/blob/master/截图/3.PNG) 
+![image](https://github.com/KKFinger/KKPlateGirdView/blob/master/截图/3.PNG) 
 
