@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0983EB0477E3C0E252843B56 /* libPods-KKPlateGirdView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5B61C70939A9F2E725DC75 /* libPods-KKPlateGirdView.a */; };
+		510BFF2A1F3DED3600CD0F5F /* KKAddMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF1E1F3DED3600CD0F5F /* KKAddMoreView.m */; };
+		510BFF2B1F3DED3600CD0F5F /* KKSegmentCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF201F3DED3600CD0F5F /* KKSegmentCollectionCell.m */; };
+		510BFF2C1F3DED3600CD0F5F /* KKSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF221F3DED3600CD0F5F /* KKSegmentView.m */; };
+		510BFF2D1F3DED3600CD0F5F /* KKPlateDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF251F3DED3600CD0F5F /* KKPlateDisplayView.m */; };
+		510BFF2E1F3DED3600CD0F5F /* KKSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF271F3DED3600CD0F5F /* KKSectionHeaderView.m */; };
+		510BFF2F1F3DED3600CD0F5F /* KKSelectPlateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF291F3DED3600CD0F5F /* KKSelectPlateView.m */; };
+		510BFF361F3DED9000CD0F5F /* KKUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF351F3DED9000CD0F5F /* KKUserCenter.m */; };
+		510BFF3E1F3DEE3E00CD0F5F /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF3A1F3DEE3E00CD0F5F /* NSArray+Safe.m */; };
+		510BFF3F1F3DEE3E00CD0F5F /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF3D1F3DEE3E00CD0F5F /* UIView+Geometry.m */; };
+		510BFF421F3DEE9A00CD0F5F /* KKSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF411F3DEE9A00CD0F5F /* KKSegmentItem.m */; };
+		510BFF461F3DEECA00CD0F5F /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF451F3DEECA00CD0F5F /* UIImage+Extend.m */; };
+		510BFF4E1F3DF21300CD0F5F /* KKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510BFF4D1F3DF21300CD0F5F /* KKNavigationController.m */; };
 		51657F821F3DEC1A00AF7357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51657F811F3DEC1A00AF7357 /* main.m */; };
 		51657F851F3DEC1A00AF7357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51657F841F3DEC1A00AF7357 /* AppDelegate.m */; };
 		51657F881F3DEC1A00AF7357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51657F871F3DEC1A00AF7357 /* ViewController.m */; };
@@ -16,6 +29,35 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A5B61C70939A9F2E725DC75 /* libPods-KKPlateGirdView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKPlateGirdView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4474D3381C3C02419E02E8C9 /* Pods-KKPlateGirdView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPlateGirdView.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKPlateGirdView/Pods-KKPlateGirdView.release.xcconfig"; sourceTree = "<group>"; };
+		510BFF1D1F3DED3600CD0F5F /* KKAddMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAddMoreView.h; sourceTree = "<group>"; };
+		510BFF1E1F3DED3600CD0F5F /* KKAddMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAddMoreView.m; sourceTree = "<group>"; };
+		510BFF1F1F3DED3600CD0F5F /* KKSegmentCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentCollectionCell.h; sourceTree = "<group>"; };
+		510BFF201F3DED3600CD0F5F /* KKSegmentCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentCollectionCell.m; sourceTree = "<group>"; };
+		510BFF211F3DED3600CD0F5F /* KKSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentView.h; sourceTree = "<group>"; };
+		510BFF221F3DED3600CD0F5F /* KKSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentView.m; sourceTree = "<group>"; };
+		510BFF241F3DED3600CD0F5F /* KKPlateDisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPlateDisplayView.h; sourceTree = "<group>"; };
+		510BFF251F3DED3600CD0F5F /* KKPlateDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPlateDisplayView.m; sourceTree = "<group>"; };
+		510BFF261F3DED3600CD0F5F /* KKSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSectionHeaderView.h; sourceTree = "<group>"; };
+		510BFF271F3DED3600CD0F5F /* KKSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSectionHeaderView.m; sourceTree = "<group>"; };
+		510BFF281F3DED3600CD0F5F /* KKSelectPlateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSelectPlateView.h; sourceTree = "<group>"; };
+		510BFF291F3DED3600CD0F5F /* KKSelectPlateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSelectPlateView.m; sourceTree = "<group>"; };
+		510BFF341F3DED9000CD0F5F /* KKUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUserCenter.h; sourceTree = "<group>"; };
+		510BFF351F3DED9000CD0F5F /* KKUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUserCenter.m; sourceTree = "<group>"; };
+		510BFF391F3DEE3E00CD0F5F /* NSArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		510BFF3A1F3DEE3E00CD0F5F /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		510BFF3C1F3DEE3E00CD0F5F /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		510BFF3D1F3DEE3E00CD0F5F /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		510BFF401F3DEE9A00CD0F5F /* KKSegmentItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSegmentItem.h; sourceTree = "<group>"; };
+		510BFF411F3DEE9A00CD0F5F /* KKSegmentItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSegmentItem.m; sourceTree = "<group>"; };
+		510BFF441F3DEECA00CD0F5F /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		510BFF451F3DEECA00CD0F5F /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		510BFF481F3DF21300CD0F5F /* KKCommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCommonDef.h; sourceTree = "<group>"; };
+		510BFF491F3DF21300CD0F5F /* KKCommonVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCommonVariable.h; sourceTree = "<group>"; };
+		510BFF4A1F3DF21300CD0F5F /* KKPublicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPublicHeader.h; sourceTree = "<group>"; };
+		510BFF4C1F3DF21300CD0F5F /* KKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKNavigationController.h; sourceTree = "<group>"; };
+		510BFF4D1F3DF21300CD0F5F /* KKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKNavigationController.m; sourceTree = "<group>"; };
 		51657F7D1F3DEC1A00AF7357 /* KKPlateGirdView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPlateGirdView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51657F811F3DEC1A00AF7357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51657F831F3DEC1A00AF7357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +68,7 @@
 		51657F8C1F3DEC1A00AF7357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51657F8F1F3DEC1A00AF7357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51657F911F3DEC1A00AF7357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9AE398A249A43D3148A7BE /* Pods-KKPlateGirdView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKPlateGirdView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKPlateGirdView/Pods-KKPlateGirdView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,135 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0983EB0477E3C0E252843B56 /* libPods-KKPlateGirdView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2390069912829F5F9E778256 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE9AE398A249A43D3148A7BE /* Pods-KKPlateGirdView.debug.xcconfig */,
+				4474D3381C3C02419E02E8C9 /* Pods-KKPlateGirdView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		510BFF1B1F3DED3600CD0F5F /* KKPlateGirgView */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF471F3DF21300CD0F5F /* Common */,
+				510BFF4B1F3DF21300CD0F5F /* KKNavigationController */,
+				510BFF371F3DEE3E00CD0F5F /* Category */,
+				510BFF331F3DED9000CD0F5F /* UserCenter */,
+				510BFF1C1F3DED3600CD0F5F /* KKSegmentView */,
+				510BFF231F3DED3600CD0F5F /* KKSelectPlateView */,
+			);
+			path = KKPlateGirgView;
+			sourceTree = "<group>";
+		};
+		510BFF1C1F3DED3600CD0F5F /* KKSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF401F3DEE9A00CD0F5F /* KKSegmentItem.h */,
+				510BFF411F3DEE9A00CD0F5F /* KKSegmentItem.m */,
+				510BFF1D1F3DED3600CD0F5F /* KKAddMoreView.h */,
+				510BFF1E1F3DED3600CD0F5F /* KKAddMoreView.m */,
+				510BFF1F1F3DED3600CD0F5F /* KKSegmentCollectionCell.h */,
+				510BFF201F3DED3600CD0F5F /* KKSegmentCollectionCell.m */,
+				510BFF211F3DED3600CD0F5F /* KKSegmentView.h */,
+				510BFF221F3DED3600CD0F5F /* KKSegmentView.m */,
+			);
+			path = KKSegmentView;
+			sourceTree = "<group>";
+		};
+		510BFF231F3DED3600CD0F5F /* KKSelectPlateView */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF241F3DED3600CD0F5F /* KKPlateDisplayView.h */,
+				510BFF251F3DED3600CD0F5F /* KKPlateDisplayView.m */,
+				510BFF261F3DED3600CD0F5F /* KKSectionHeaderView.h */,
+				510BFF271F3DED3600CD0F5F /* KKSectionHeaderView.m */,
+				510BFF281F3DED3600CD0F5F /* KKSelectPlateView.h */,
+				510BFF291F3DED3600CD0F5F /* KKSelectPlateView.m */,
+			);
+			path = KKSelectPlateView;
+			sourceTree = "<group>";
+		};
+		510BFF331F3DED9000CD0F5F /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF341F3DED9000CD0F5F /* KKUserCenter.h */,
+				510BFF351F3DED9000CD0F5F /* KKUserCenter.m */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		510BFF371F3DEE3E00CD0F5F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF431F3DEECA00CD0F5F /* UIImage */,
+				510BFF381F3DEE3E00CD0F5F /* NSArray */,
+				510BFF3B1F3DEE3E00CD0F5F /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		510BFF381F3DEE3E00CD0F5F /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF391F3DEE3E00CD0F5F /* NSArray+Safe.h */,
+				510BFF3A1F3DEE3E00CD0F5F /* NSArray+Safe.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		510BFF3B1F3DEE3E00CD0F5F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF3C1F3DEE3E00CD0F5F /* UIView+Geometry.h */,
+				510BFF3D1F3DEE3E00CD0F5F /* UIView+Geometry.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		510BFF431F3DEECA00CD0F5F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF441F3DEECA00CD0F5F /* UIImage+Extend.h */,
+				510BFF451F3DEECA00CD0F5F /* UIImage+Extend.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		510BFF471F3DF21300CD0F5F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF481F3DF21300CD0F5F /* KKCommonDef.h */,
+				510BFF491F3DF21300CD0F5F /* KKCommonVariable.h */,
+				510BFF4A1F3DF21300CD0F5F /* KKPublicHeader.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		510BFF4B1F3DF21300CD0F5F /* KKNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				510BFF4C1F3DF21300CD0F5F /* KKNavigationController.h */,
+				510BFF4D1F3DF21300CD0F5F /* KKNavigationController.m */,
+			);
+			path = KKNavigationController;
+			sourceTree = "<group>";
+		};
 		51657F741F3DEC1A00AF7357 = {
 			isa = PBXGroup;
 			children = (
 				51657F7F1F3DEC1A00AF7357 /* KKPlateGirdView */,
 				51657F7E1F3DEC1A00AF7357 /* Products */,
+				2390069912829F5F9E778256 /* Pods */,
+				D3786D0F1714B8E0C2B87CDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +219,7 @@
 		51657F7F1F3DEC1A00AF7357 /* KKPlateGirdView */ = {
 			isa = PBXGroup;
 			children = (
+				510BFF1B1F3DED3600CD0F5F /* KKPlateGirgView */,
 				51657F831F3DEC1A00AF7357 /* AppDelegate.h */,
 				51657F841F3DEC1A00AF7357 /* AppDelegate.m */,
 				51657F861F3DEC1A00AF7357 /* ViewController.h */,
@@ -79,6 +241,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D3786D0F1714B8E0C2B87CDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A5B61C70939A9F2E725DC75 /* libPods-KKPlateGirdView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51657F941F3DEC1A00AF7357 /* Build configuration list for PBXNativeTarget "KKPlateGirdView" */;
 			buildPhases = (
+				4E1143FBD51ED50349BAD3F1 /* [CP] Check Pods Manifest.lock */,
 				51657F791F3DEC1A00AF7357 /* Sources */,
 				51657F7A1F3DEC1A00AF7357 /* Frameworks */,
 				51657F7B1F3DEC1A00AF7357 /* Resources */,
+				6CAF34A4AD448DB58CCEEAC3 /* [CP] Embed Pods Frameworks */,
+				6E3477B9B5195DFA77EF4679 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +319,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E1143FBD51ED50349BAD3F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CAF34A4AD448DB58CCEEAC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKPlateGirdView/Pods-KKPlateGirdView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E3477B9B5195DFA77EF4679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKPlateGirdView/Pods-KKPlateGirdView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51657F791F3DEC1A00AF7357 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510BFF2D1F3DED3600CD0F5F /* KKPlateDisplayView.m in Sources */,
 				51657F881F3DEC1A00AF7357 /* ViewController.m in Sources */,
+				510BFF2B1F3DED3600CD0F5F /* KKSegmentCollectionCell.m in Sources */,
+				510BFF2C1F3DED3600CD0F5F /* KKSegmentView.m in Sources */,
+				510BFF4E1F3DF21300CD0F5F /* KKNavigationController.m in Sources */,
+				510BFF3F1F3DEE3E00CD0F5F /* UIView+Geometry.m in Sources */,
 				51657F851F3DEC1A00AF7357 /* AppDelegate.m in Sources */,
 				51657F821F3DEC1A00AF7357 /* main.m in Sources */,
+				510BFF2A1F3DED3600CD0F5F /* KKAddMoreView.m in Sources */,
+				510BFF3E1F3DEE3E00CD0F5F /* NSArray+Safe.m in Sources */,
+				510BFF461F3DEECA00CD0F5F /* UIImage+Extend.m in Sources */,
+				510BFF2F1F3DED3600CD0F5F /* KKSelectPlateView.m in Sources */,
+				510BFF421F3DEE9A00CD0F5F /* KKSegmentItem.m in Sources */,
+				510BFF2E1F3DED3600CD0F5F /* KKSectionHeaderView.m in Sources */,
+				510BFF361F3DED9000CD0F5F /* KKUserCenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +504,11 @@
 		};
 		51657F951F3DEC1A00AF7357 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9AE398A249A43D3148A7BE /* Pods-KKPlateGirdView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8X732W9RQ2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KKPlateGirdView/KKPlateGirgView/Common/KKPublicHeader.h";
 				INFOPLIST_FILE = KKPlateGirdView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KKPlateGirdView.finger.KKPlateGirdView;
@@ -283,9 +518,11 @@
 		};
 		51657F961F3DEC1A00AF7357 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4474D3381C3C02419E02E8C9 /* Pods-KKPlateGirdView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8X732W9RQ2;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KKPlateGirdView/KKPlateGirgView/Common/KKPublicHeader.h";
 				INFOPLIST_FILE = KKPlateGirdView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KKPlateGirdView.finger.KKPlateGirdView;
@@ -312,6 +549,7 @@
 				51657F961F3DEC1A00AF7357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
